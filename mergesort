@@ -1,0 +1,13 @@
+[16,21,11,8,12,22] diziyi ikiye böleriz
+       
+[16,21,11]---[8,12,22] tek eleman kalana kadar bölmeye devam ediyoruz
+
+[16,21]-[11]---[8,12]-[22] 
+
+[16]-[21]-[11]---[8]-[12]-[22]
+
+[11]-[16]-[21]---[8]-[12]-[22]
+
+[8,11,12,16,21,22] her iki kümenin ilk elemanına bakılarak kğçğkten büyüğe sıralanır
+
+Big-O(nlogn) 
